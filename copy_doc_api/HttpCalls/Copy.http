@@ -1,0 +1,10 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+POST https://localhost:7289/api/CopyDoc/copy
+Content-Type:application/json
+
+{
+    "SharePointSiteName":"EISSolutions",
+    "SourceFolderName": "TestFolder",
+    "SourceDocumentName": "Check.docx",
+    "TargetFolderName": "NucleusDataFolder"
+}
